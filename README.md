@@ -85,6 +85,27 @@ int main()
 
 ## OUTPUT
 
+```
+localhost:~# ./writer
+Write Data : Helloworld
+Data send is : Helloworld
+```
+```
+localhost:~# ./reader
+Data Received is : Write Data : Helloworld
+```
+```
+localhost:~# ipcs
+ 
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages
+ 
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status
+ 
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems
+```
 
 
 
